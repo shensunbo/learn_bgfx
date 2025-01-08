@@ -1,3 +1,4 @@
+add_definitions(-DBX_CONFIG_DEBUG)
 
 add_executable(bgfx_test main.cpp)
 
@@ -14,5 +15,8 @@ target_link_libraries(bgfx_test PRIVATE
     -limgui
     -lglfw
     -lGL
+    -lbgfx
+    -lbx
+    -lbimg
 )
 

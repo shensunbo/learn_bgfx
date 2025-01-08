@@ -5,11 +5,13 @@ set(COMMON_INC_DIR
     ${ROOT_DIR}/dependency/imgui/include
     ${ROOT_DIR}/dependency/assimp/include
     ${ROOT_DIR}/dependency/glad/include
+    ${ROOT_DIR}/dependency/bgfx/include
 )
 
 set(COMMON_LIB_DIR 
     ${ROOT_DIR}/dependency/assimp/lib
     ${ROOT_DIR}/dependency/imgui/lib
+    ${ROOT_DIR}/dependency/bgfx/lib
 )
 
 set(COMMON_DEP_SRC_FILES 
